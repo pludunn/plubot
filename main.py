@@ -19,4 +19,5 @@ async def on_ready():
 			amount=int(input("Amount: "))
 			for _ in range(amount):
 				await channel.send(message)
+    bot.close()
 bot.run(os.getenv("PLUBOT_TOKEN","None"))
