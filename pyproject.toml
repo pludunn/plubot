@@ -1,0 +1,12 @@
+[project]
+name = "plubot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "discord>=2.3.2",
+    "python-minimizer>=2.0.1",
+    "ruff>=0.17.6",
+    "ty>=0.0.112",
+]
