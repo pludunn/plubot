@@ -69,7 +69,6 @@ async def _(ctx: commands.Context):
 @error_handling
 async def _(ctx: commands.Context, message: str):
     await ctx.send(message)
-    await ctx.message.delete()
 
 
 @bot.hybrid_command(name="warn")
