@@ -2,8 +2,8 @@
 set -euo pipefail
 
 cd /home/pludunn/plubot
+git pull
 git add --all
 git commit -m "auto commit" --allow-empty
-git pull
-git push
+git push --force
 nohup uv run main.py &
