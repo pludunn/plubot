@@ -13,7 +13,6 @@ bot = commands.Bot(
     command_prefix="plu!", intents=discord.Intents.all(), help_command=None
 )
 helptext = """```
-Hello
 Help for plubot:
 plu!help - Shows this message
 plu!echo <message> - Echoes the message back to you
